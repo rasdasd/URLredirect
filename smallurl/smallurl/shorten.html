@@ -1,0 +1,12 @@
+<form action="/" method="post">
+  URL: <input type="url" name="url" required/>
+  </br>
+  Custom Hash: <input type="text" name="hash" maxlength="7"/>
+  </br>
+  </br>
+  <input type="submit" value="Shorten" formnovalidate="formnovalidate"/>
+</form>
+
+{% if hash != None %}
+	{{hash}} is invalid
+{% endif %}
