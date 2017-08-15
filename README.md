@@ -2,4 +2,4 @@
 
 Django Web App for url redirection, through the use of smaller urls
 
-a.bc => https://www.google.com/
+[Your Domain]/abc => https://www.google.com/
